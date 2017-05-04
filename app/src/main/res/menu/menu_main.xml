@@ -1,0 +1,21 @@
+<!--<Author:HaotianXue u5689296>-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.haotian.skykeep50.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_search"
+        app:showAsAction="ifRoom"
+        android:title="Search"
+        android:icon="@drawable/ic_action_search"/>
+    <!--<item-->
+        <!--android:id="@+id/action_share"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:title="Share"-->
+        <!--android:icon="@drawable/ic_action_share"/>-->
+</menu>
